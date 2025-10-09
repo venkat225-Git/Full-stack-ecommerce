@@ -10,7 +10,11 @@ import cartRoutes from './routes/cartRoutes.js'
 dotenv.config();
 const app = express();
 
-app.use(cors())
+app.use(cors({
+  origin: ["https://full-stack-ecommerce-1-1a7m.onrender.com"], // your FRONTEND render URL
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}))
 app.use(express.json())
 
 connectDB()
