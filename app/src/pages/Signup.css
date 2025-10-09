@@ -1,0 +1,52 @@
+/* Signup.css */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Signup container */
+.signup-card {
+  max-width: 350px;
+  margin: 100px auto 80px; /* below navbar and above footer */
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title */
+.signup-card h3 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 22px;
+}
+
+/* Inputs */
+.signup-card input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  transition: all 0.2s ease-in-out;
+}
+
+.signup-card input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .signup-card {
+    margin-top: 80px;
+    width: 90%;
+    padding: 20px;
+  }
+}

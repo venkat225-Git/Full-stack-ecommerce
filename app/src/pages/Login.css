@@ -1,0 +1,63 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh; /* centers between navbar and footer */
+  background-color: #f4f4f4;
+}
+
+.login h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Card box */
+.login {
+  width: 100%;
+}
+
+.login > div {
+  background: white;
+  padding: 40px 50px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login input {
+  width: 280px;
+  padding: 10px 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.login input:focus {
+  border-color: #007bff;
+}
+
+.login button {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: skyblue;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 12px;
+  transition: background-color 0.2s ease;
+}
+
+.login button:hover {
+  background-color: pink;
+}
+

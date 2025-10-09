@@ -1,0 +1,96 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fff; /* clean white background */
+  font-family: Arial, sans-serif;
+}
+
+.img .logo {
+  height: 50px; /* size similar to Myntra style */
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.list ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.list ul li {
+  cursor: pointer;
+  font-weight: 500;
+  color: #333;
+}
+
+.search input {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  width: 200px;
+}
+
+.search input:focus {
+  border-color: #ff3f6c; /* highlight on focus */
+}
+
+/* Make all three right-side logos same size and shape */
+/* Profile logo */
+.logo1 {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%; /* circular */
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+/* Wishlist logo */
+.logo2 {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%; /* circular */
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+/* Bag logo */
+.logo3 {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%; /* circular */
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.auth-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  border: 1px solid #333;
+  padding: 6px 14px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.auth-link:hover {
+  background-color: #333;
+  color: white;
+}
+
